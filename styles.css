@@ -182,22 +182,21 @@ body {
 
 
 
-.hero h1 {
+.hero h2 {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 1rem;
+
 }
   
-.hero h1 span{
+.hero h1{
     color: var(--primary-color);
-    /* font-size: 5.5rem; */
 }
 
 
 
 .hero p {
-    margin-bottom: 2rem;
+    margin-bottom: 1.75rem;
 }
   
 .hero .btn {
@@ -415,10 +414,10 @@ footer p {
 
 /* Breakpoint for 320px */
 @media (max-width: 320px) {
-    h1 {
+    h2 {
         font-size: 1rem;
     }
-    .hero h1 span {
+    .hero h1 {
         font-size: 0.75rem;
     }
     p {
@@ -431,10 +430,10 @@ footer p {
 
 /* Breakpoint for 375px */
 @media (min-width: 320px) and (max-width: 375px) {
-    h1 {
+    h2 {
         font-size: 1.5rem;
     }
-    .hero h1 span {
+    .hero h1 {
         font-size: 2.25rem;
     }
     p {
@@ -447,10 +446,10 @@ footer p {
 
 /* Breakpoint for 425px */
 @media (min-width: 375px) and (max-width: 425px) {
-    .hero h1 {
+    .hero h2 {
         font-size: 1.75rem;
     }
-    .hero h1 span {
+    .hero h1 {
         font-size: 2.5rem;
         
     }
@@ -464,10 +463,10 @@ footer p {
 
 /* Breakpoint for 425px */
 @media (min-width: 425px) and (max-width: 490px) {
-    .hero h1 {
+    .hero h2 {
         font-size: 3rem;
     }
-    .hero h1 span{
+    .hero h1{
         font-size: 4rem;
     }
     p {
@@ -480,10 +479,10 @@ footer p {
 
 /* Breakpoint for 490x */
 @media (min-width: 490px) and (max-width: 768px) {
-    .hero h1 {
+    .hero h2 {
         font-size: 3.5rem;
     }
-    .hero h1 span {
+    .hero h1 {
         font-size: 4.25rem;
     }
     p {
@@ -496,11 +495,11 @@ footer p {
 
 /* Breakpoint for 768px */
 @media (min-width: 768px) and (max-width: 1024px) {
-    h1 {
+    h2 {
         font-size: 2.75rem;
     }
-    .hero h1 span {
-        font-size: 5.5rem;
+    .hero h1 {
+        font-size: 5rem;
     }
     p {
         font-size: 1.25rem;
@@ -512,11 +511,11 @@ footer p {
 
 /* Breakpoint for 1024px */
 @media (min-width: 1024px) and (max-width: 1440px) {
-    h1 {
+    h2 {
         font-size: 3rem;
     }
-    .hero h1 span {
-        font-size: 6.5rem;
+    .hero h1 {
+        font-size: 6rem;
     }
       p {
         font-size: 1.5rem;
@@ -528,11 +527,11 @@ footer p {
 
 /* Breakpoint for 1440px */
 @media (min-width: 1440px) and (max-width: 2560px) {
-    h1 {
+    h2 {
         font-size: 3.5rem;
     }
-    .hero h1 span {
-        font-size: 7.5rem;
+    .hero h1 {
+        font-size: 6.5rem;
     }
     p {
         font-size: 2rem;
