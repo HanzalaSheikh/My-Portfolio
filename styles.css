@@ -151,13 +151,13 @@ body {
     .nav-links a {
         text-decoration: none;
         color: var(--dark-color);
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .nav-links a:hover {
         text-decoration: none;
         color: var(--light-color);
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .burger {
@@ -186,19 +186,17 @@ body {
     font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4.5rem;
     margin-bottom: 1rem;
 }
   
 .hero h1 span{
     color: var(--primary-color);
-    font-size: 5.5rem;
+    /* font-size: 5.5rem; */
 }
 
 
 
 .hero p {
-    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
   
@@ -414,45 +412,132 @@ footer p {
     }
 }
 
-@media only screen and (max-width: 480px) {
+
+/* Breakpoint for 320px */
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1rem;
+    }
+    .hero h1 span {
+        font-size: 0.75rem;
+    }
+    p {
+        font-size: 0.875rem;
+    }
+    .container {
+        padding: 0 0.5rem;
+    }
+}
+
+/* Breakpoint for 375px */
+@media (min-width: 320px) and (max-width: 375px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .hero h1 span {
+        font-size: 2.25rem;
+    }
+    p {
+        font-size: 0.75rem;
+    }
+    .container {
+        padding: 0 0.75rem;
+    }
+}
+
+/* Breakpoint for 425px */
+@media (min-width: 375px) and (max-width: 425px) {
+    .hero h1 {
+        font-size: 1.75rem;
+    }
+    .hero h1 span {
+        font-size: 2.5rem;
+        
+    }
+    p {
+        font-size: 1rem;
+    }
+    .container {
+        padding: 0 1rem;
+    }
+}
+
+/* Breakpoint for 425px */
+@media (min-width: 425px) and (max-width: 490px) {
     .hero h1 {
         font-size: 3rem;
     }
-
-    .hero h1 span {
+    .hero h1 span{
         font-size: 4rem;
     }
-
-    .hero p {
-        font-size: 1.2rem;
+    p {
+        font-size: 1rem;
     }
-
-    .hero .btn {
-        padding: 0.5em 1em;
+    .container {
+        padding: 0 1rem;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .work-items {
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    }
-
-    .skills-logos img {
-        width: 3rem;
-        height: 3rem;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
+/* Breakpoint for 490x */
+@media (min-width: 490px) and (max-width: 768px) {
     .hero h1 {
         font-size: 3.5rem;
     }
-
     .hero h1 span {
-        font-size: 4.5rem;
+        font-size: 4.25rem;
     }
+    p {
+        font-size: 1.125rem;
+    }
+    .container {
+        max-width: 95%;
+    }
+}
 
-    .hero p {
-        font-size: 1.4rem;
+/* Breakpoint for 768px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.75rem;
+    }
+    .hero h1 span {
+        font-size: 5.5rem;
+    }
+    p {
+        font-size: 1.25rem;
+    }
+    .container {
+        max-width: 90%;
+    }
+}
+
+/* Breakpoint for 1024px */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .hero h1 span {
+        font-size: 6.5rem;
+    }
+      p {
+        font-size: 5.25rem;
+    }
+    .container {
+        max-width: 85%;
+    }
+}
+
+/* Breakpoint for 1440px */
+@media (min-width: 1440px) and (max-width: 2560px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+    .hero h1 span {
+        font-size: 7.5rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .container {
+        max-width: 80%;
     }
 }
